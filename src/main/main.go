@@ -13,6 +13,7 @@ func main() {
 	fmt.Println("10th fibonacci element ==> ", dividenconc.Fibonacci(10))
 	fmt.Println("Number Factor for 6 ==> ", dividenconc.NumberFactor(6))
 	fmt.Println("House Thief algo ==> ", dividenconc.HouseThief(houses, 0))
+	fmt.Println("Whats the minimum  no of operations required to convert 'tbres' to 'table'? ==> ", dividenconc.FindMinOperations("table", "tbres"))
 }
 
 func mains() {
