@@ -3,6 +3,12 @@ package main
 import "fmt"
 import "sorts"
 import . "graphs"
+import . "greedy"
+
+func main() {
+	var coins = []int{1, 2, 5, 10, 20, 50, 100, 500, 2000}
+	CoinChange(coins, 6799)
+}
 
 func mains() {
 	a := []int{2, 212, 3001, 14, 501, 7800, 9932, 33, 45, 45, 45, 91, 99, 37, 102, 102, 104, 106, 109, 106}
@@ -22,7 +28,7 @@ func mains() {
 	fmt.Println("Quick Sort     ==>", sorts.QuickSort(d))
 }
 
-func main() {
+func mainss() {
 	var nodes []GraphNode
 
 	for i := 0; i < 11; i++ {
