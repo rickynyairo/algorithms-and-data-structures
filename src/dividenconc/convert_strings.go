@@ -8,7 +8,7 @@ func FindMinOperations(s1 string, s2 string) int {
 }
 
 // returns the minimum of the provided values
-func min(values ...int) int {
+func Min(values ...int) int {
 	minimum := values[0]
 	for _, val := range values {
 		if val < minimum {
@@ -35,5 +35,5 @@ func findMin(s1 string, s2 string, i1 int, i2 int) int {
 	c3 := 1 + findMin(s1, s2, i1+1, i2+1) // replace
 
 	// fmt.Println("We're here ====>", string(s1[i1]), string(s2[i2]))
-	return min(c1, c2, c3)
+	return Min(c1, c2, c3)
 }

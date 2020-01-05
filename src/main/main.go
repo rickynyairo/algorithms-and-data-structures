@@ -10,6 +10,8 @@ func main() {
 	var coins = []int{1, 2, 5, 10, 20, 50, 100, 500, 2000}
 	CoinChange(coins, 6799)
 	var houses = []int{6, 7, 1, 30, 8, 2, 4}
+	fmt.Println("Longest subsequence in 'houdini' and 'houdini'", dividenconc.LCS("houdini", "hdupti"))
+	fmt.Println("Length of longest palindrome subsequence in 'elrmenmet' is ==> ", dividenconc.LPS("elrmenmet"))
 	fmt.Println("10th fibonacci element ==> ", dividenconc.Fibonacci(10))
 	fmt.Println("Number Factor for 6 ==> ", dividenconc.NumberFactor(6))
 	fmt.Println("House Thief algo ==> ", dividenconc.HouseThief(houses, 0))
