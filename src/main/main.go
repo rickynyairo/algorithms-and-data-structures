@@ -4,10 +4,15 @@ import "fmt"
 import "sorts"
 import . "graphs"
 import . "greedy"
+import "dividenconc"
 
 func main() {
 	var coins = []int{1, 2, 5, 10, 20, 50, 100, 500, 2000}
 	CoinChange(coins, 6799)
+	var houses = []int{6, 7, 1, 30, 8, 2, 4}
+	fmt.Println("10th fibonacci element ==> ", dividenconc.Fibonacci(10))
+	fmt.Println("Number Factor for 6 ==> ", dividenconc.NumberFactor(6))
+	fmt.Println("House Thief algo ==> ", dividenconc.HouseThief(houses, 0))
 }
 
 func mains() {
